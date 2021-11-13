@@ -6,7 +6,6 @@ function nb_year(pO, percent, aug, p){
     pO=pO*(1+percent/100)+aug;
     years+=1;
   }
-
   return years;
 
 }
